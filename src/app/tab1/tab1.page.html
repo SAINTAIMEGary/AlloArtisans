@@ -1,0 +1,22 @@
+<body>
+  <img src="https://cdn.discordapp.com/attachments/884435286644375573/940950987420610620/Logoart.png">
+
+<ion-card-header>
+  <ion-title position="center">Bienvenue</ion-title>
+</ion-card-header>
+
+<ion-item>
+  <ion-label position="floating">Identifiant</ion-label>
+  <ion-input [(ngModel)]="email" type='email'></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating">Mot de passe</ion-label>
+  <ion-input [(ngModel)]="password" type="password"></ion-input>
+</ion-item>
+
+<ion-button color="secondary" expand="block">Connexion<ion-icon name="log-in"></ion-icon>
+</ion-button>
+<ion-button color="warning" expand="block">Inscription<ion-icon name="person-add"></ion-icon>
+</ion-button>
+</body>
